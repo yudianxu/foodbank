@@ -1,7 +1,6 @@
 import React from 'react';
-import { Form, Upload, Row, Col, Table, Input, Button, Select, Modal, Radio, message } from 'antd';
-/*import { FormOutlined, UploadOutlined, DeleteOutlined, ExclamationCircleOutlined } from '@ant-design/icons';*/
-import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
+import { Input, Button, Select, Radio} from 'antd';
+import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 import "./index.css";
 import axios from 'axios';
