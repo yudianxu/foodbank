@@ -103,6 +103,7 @@ class NoteList extends React.Component {
     }
     return (
       <div className='home-container' style={{ height: "100%", boxSizing: 'border-box' }}>
+        <div style={{fontSize:20,lineHeight:"30px",marginLeft:10}}>Emergency Food Finder</div>
         <div style={{ fontSize: 20 }}>
           <div>
             <Radio.Group style={{ margin: 10 }} onChange={(e) => {
@@ -153,7 +154,7 @@ class NoteList extends React.Component {
           </div>:""
           }
          
-          <div style={{ position: "relative", width: 800, height: 500 }}>
+          <div style={{ position: "relative", width: "100vw", height: "calc(100vh - 60px)" }}>
             <Map
               google={this.props.google}
               zoom={14}
