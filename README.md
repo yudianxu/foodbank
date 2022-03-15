@@ -1,6 +1,7 @@
 # Emergency Food Finder
 
 I was going to design a project to generate food leftovers in food banks in Seattle, and people can submit a form online based on the food they have and request delivery. However, during the process of looking for a food bank API, it's hard to find what I want. 
+
 The APIs I saw are outdated and not working anymore. After that, I moved to some new ideas. I found data about Emergency Food and Meals Seattle and King County, and I think I can do a map to help people to locate the food center through longitude, latitude and zipcode inputs. 
 
 Here is the API I found:
